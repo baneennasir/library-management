@@ -15,5 +15,7 @@ int main()
         printf("Biggest number is %d", b);
     if (c > a && c > b)
         printf("Biggest number is %d", c);
+    if (d > a && d > b && d > c)
+        printf("Biggest number is %d", d);
     return 0;
 }
